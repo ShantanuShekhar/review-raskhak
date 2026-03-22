@@ -1,0 +1,8 @@
+[build]
+nixpacks_version = "1.0.0"
+
+[build.variables]
+NODE_ENV = "production"
+
+[start]
+cmd = "node src/index.js"
