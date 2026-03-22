@@ -7,7 +7,7 @@ const express = require("express");
 const cors = require("cors");
 const reviewRoutes = require("./routes/reviewRoutes");
 const testRoutes = require("./routes/testRoutes");
-const { startReviewPollingJob } = require("./jobs/reviewPollingJob");
+const { startReviewPollingJob } = require("./jobs/reviewPollingJob"); 
 
 const app = express();
 const port = process.env.PORT || 5000;
